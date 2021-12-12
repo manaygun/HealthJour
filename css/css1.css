@@ -1,0 +1,266 @@
+body {
+background: #D1E8E2;
+padding: 0;
+margin: 0;
+}
+p {
+    color: black;
+  font-family: zapf chancery;
+  font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em
+}
+
+content {
+  font-size: 32px;
+  margin-left: auto;
+    margin-right: auto;
+    width: 14px;
+    text-align: center;
+}
+
+div.soups {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid green;
+  border-radius: 10%;
+  float: left;
+  margin-left: 80px;
+}
+
+
+div.beefs {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid green;
+  border-radius: 10%;
+  float: left;
+  margin-left: 80px;
+}
+
+div.glutenfrees {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid green;
+  border-radius: 10%;
+  float: left;
+  margin-left: 80px;
+}
+
+div.sweets {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid green;
+  border-radius: 10%;
+  float: left;
+  margin-left: 80px;
+}
+
+img {
+height: auto;
+max-width: 100%;
+  border-radius: 10%;
+}
+
+.image-table {
+border: 0px solid rgba(0, 0, 0, 0);
+border-collapse: separate;
+border-spacing: 6px;
+border-radius: 15%;
+table-layout: fixed;
+text-align: center;
+width: 100%;
+}
+.image-table img {
+border: 10px solid #fff;
+box-sizing: border-box;
+-webkit-box-shadow: 0 0 10px #999;
+box-shadow: 0 0 10px #999;
+}
+
+
+img:hover {
+
+  animation: shake 0.5s;
+
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+nav{
+  width: 95%;
+  height: 75px;
+  background-color: #376E6F;
+  line-height: 5px;
+  padding:0px 100px;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+justify-content: center;
+}
+
+.leftlogo{
+  width: 50px;
+  height: 50px;
+}
+
+nav .logo{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+nav .logo p{
+  text-align: left;
+  font-size: 18px;
+  float: left;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+nav ul{
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 12.3px;
+  text-transform: uppercase;
+  padding:0px 20px;
+}
+nav ul li a:hover{
+  color:white;
+}
+nav ul li .active{
+  color:purple;
+}
+
+.content {
+  padding: 8px 90px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content p {
+  line-height: 1.9;
+}
+
+.content img {
+  max-height: 500px;
+}
+
+.content {
+  padding: 8px 90px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content p {
+  line-height: 1.9;
+}
+
+.content img {
+  max-height: 500px;
+}
+
+
+.share-btn-container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.share-btn-container a i {
+  font-size: 32px;
+}
+
+.share-btn-container a {
+  margin: 12px 0;
+  transition: 500ms;
+}
+
+.share-btn-container a:hover {
+  transform: scale(1.2);
+}
+
+.share-btn-container .fa-facebook {
+  color: #3b5998;
+}
+
+.share-btn-container .fa-twitter {
+  color: #1da1f2;
+}
+
+.share-btn-container .fa-linkedin {
+  color: #0077b5;
+}
+
+.share-btn-container .fa-pinterest {
+  color: #bd081c;
+}
+
+.share-btn-container .fa-whatsapp {
+  color: #25d366;
+}
+
+@media (max-width: 550px) {
+  .content {
+    padding: 8px 32px;
+  }
+
+  .share-btn-container {
+    transform: unset;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
+    padding: 16px 0;
+    justify-content: center;
+  }
+
+  .share-btn-container a {
+    margin: 0 32px;
+  }
+}
+      .button {
+        background-color: #376E6F;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 2.5px;
+  background-color: #8E8D8A;
+  color: white;
+}

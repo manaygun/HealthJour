@@ -1,0 +1,17 @@
+<style>
+
+body {
+background: #B1DFCC;
+}
+
+div.glutenfrees {
+  width: 500px;
+  padding: 10px;
+  border: 5px solid gray;
+  background-color: #EBECEE;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 500px;
+}
+</style>
