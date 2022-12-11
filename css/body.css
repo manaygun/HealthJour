@@ -54,7 +54,7 @@ hr {
     color: black;
     background-color: black;
 }
-.widthphoto {
+.widthphoto, .iframecool {
     width: 50%;
     height: 400px;
 }
@@ -65,6 +65,7 @@ img, iframe {
     width: 100%;
   border: 5px solid #376E6F;
     border-radius: 10%;
+    }
 }
 .leftlogo:hover{
     animation: shake 0.5s;
