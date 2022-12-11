@@ -12,6 +12,15 @@ p {
     margin-right: auto;
     width: 40em
 }
+img, iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250%;
+  border: 5px solid #376E6F;
+    border-radius: 10%;
+    }
 content {
     font-size: 32px;
     margin-left: auto;
