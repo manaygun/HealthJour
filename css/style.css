@@ -56,14 +56,6 @@ margin-left: auto;
 color: black;
 background-color: black;
 }
-
-img, iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
 /* Logo */
 
 .leftlogo:hover{
